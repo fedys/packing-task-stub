@@ -9,7 +9,8 @@
         "guzzlehttp/psr7": "1.*",
         "doctrine/orm": "2.*",
         "doctrine/cache": "1.*",
-        "doctrine/annotations": "1.*"
+        "doctrine/annotations": "1.*",
+        "guzzlehttp/guzzle": "^7.5"
     },
     "autoload": {
         "psr-4": {

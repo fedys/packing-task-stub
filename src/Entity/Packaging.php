@@ -45,4 +45,43 @@ class Packaging
         $this->maxWeight = $maxWeight;
     }
 
+    /**
+     * @return int|null
+     */
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
+    /**
+     * @return float
+     */
+    public function getWidth(): float
+    {
+        return $this->width;
+    }
+
+    /**
+     * @return float
+     */
+    public function getHeight(): float
+    {
+        return $this->height;
+    }
+
+    /**
+     * @return float
+     */
+    public function getLength(): float
+    {
+        return $this->length;
+    }
+
+    /**
+     * @return float
+     */
+    public function getMaxWeight(): float
+    {
+        return $this->maxWeight;
+    }
 }
